@@ -70,3 +70,23 @@
     background-color: blueviolet;
 }
 
+.box.last {
+    display: flex;
+    max-width: 1200px;
+    min-height: 700px;
+}
+
+.card.last {
+    min-height: 600px;
+}
+
+.links {
+    border: 1px solid black;
+    flex-basis: 20%;
+}
+
+.links.socials {
+    flex-basis: 40%;
+    background-color: blueviolet;
+}
+
