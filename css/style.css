@@ -95,6 +95,7 @@
 
 .box.footer {
     min-height: 80px;
+    background-color: grey;
 }
 
 .card.footer {
