@@ -76,6 +76,10 @@
     min-height: 700px;
 }
 
+.box.foot {
+    background-color: grey;
+}
+
 .card.last {
     min-height: 600px;
 }
@@ -88,5 +92,18 @@
 .links.socials {
     flex-basis: 40%;
     background-color: blueviolet;
+}
+
+.box.footer {
+    max-width: 1200px;
+    min-height: 80px;
+    display: flex;
+}
+
+.card.footer {
+    flex-basis: 80%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
