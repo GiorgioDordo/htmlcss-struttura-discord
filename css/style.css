@@ -8,7 +8,7 @@
     max-width: 1200px;
     height: 80px;
     margin: 0 auto;
-    background-color: grey;
+    background-color: lightblue;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -18,7 +18,7 @@
     flex-basis: 80%;
     min-height: 50px;
     display: flex;
-    background-color: blue;
+    background-color: white;
 }
 
 .menu {
@@ -32,3 +32,41 @@
 .center {
     flex-basis: 60%;
 }
+
+.box {
+    max-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.box:nth-child(odd) {
+    background-color: rgb(233, 229, 229);
+}
+
+.card {
+    flex-basis: 80%;
+    min-height: 400px;
+    background-color: pink;
+    display: flex;
+}
+
+.card.first {
+    flex-basis: 70%;
+    min-height: 400px;
+    background-color: pink;
+}
+
+.image {
+    flex-basis: 60%;
+    background-color: violet;
+}
+
+.explanation {
+    flex-basis: 40%;
+    background-color: blueviolet;
+}
+
